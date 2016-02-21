@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  LMNewsApp
+//
+//  Created by tarena on 16/1/19.
+//  Copyright © 2016年 lim. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//tabBar数量
+#define LM_TABBAR_COUNT 5
+//分类文件
+#import "UIImage+Image.h"
+#import "UIView+Frame.h"
+
+#define LMKeyWindow [UIApplication sharedApplication].keyWindow
+
+#define LMScreenW [UIScreen mainScreen].bounds.size.width
+#define LMScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
